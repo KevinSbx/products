@@ -39,9 +39,6 @@ def write_file(filename, products):
 		for p in products:
 			f.write(p[0] + "," + str(p[1]) + "\n")
 
-
-
-
 products = read_file("products.csv")
 products = user_input(products)
 print_products(products)
