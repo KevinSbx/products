@@ -45,7 +45,7 @@ def main():
 
 	products = user_input(products)
 	print_products(products)
-	write_file("products.csv", products)
- 
+	wriet_file("products.csv", products)
+
 
 main()
